@@ -1,3 +1,24 @@
+html, body {
+   display: flex;
+   justify-content: center;
+    background: rgb(158, 226, 194);
+  }
+  
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  li:hover button {
+    display: inline-block;
+  }
+  button {
+    display: none;
+    background-color: red;
+  }
+  
+  
 
 /* 
 
